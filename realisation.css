@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.recherche {
+    background-color: rosybrown;
+    height: 30px;
+    padding: 0%;
+    margin: -8px;
+}
+.recherche ul {
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rosybrown;
+    height: 50px;
+    padding: 0%;
+    margin: -8px;
+}
+
+
+.BloomPetals h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    margin-top: 55px;
+}
+
+.images img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 19rem);
+    justify-content: space-evenly;
+    align-items: center;
+    grid-gap: 10px;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+
+.recherche {
+    background-color: rosybrown;
+    height: 30px;
+    padding: 0%;
+    margin: -8px;
+}
+.recherche ul {
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rosybrown;
+    height: 50px;
+    padding: 0%;
+    margin: -8px;
+}
+
+.BloomPetals h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    margin-top: 55px;
+}
+
+
+form {
+    /* On centre le formulaire */
+    margin: 0 auto;
+    width: 400px;
+    /* Le contour du formulaire */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: rosybrown;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  form li + li {
+    margin-top: 1em;
+  }
+
+  label {
+    /* Taille et alignement uniformes */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+  input,
+textarea, select {
+  /* On s'assure que les champs texte ont la même police
+     Par défaut, les zones de texte ont une police à chasse
+     fixe. */
+  font: 1em sans-serif;
+
+  /* Taille uniforme pour des champs */
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  
+}
+
+textarea, .checkbox {
+    /* On aligne les textes sur plusieurs lignes avec leur
+       libellé. */
+    vertical-align: top;
+  
+    /* On fournit un peut d'espace pour saisir du texte. */
+    height: 5em;
+  
+    /* On permet de redimensionner verticalement. */
+    resize: vertical;
+  }
+
+.checkbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  .checkbox input {
+    width: 200px;
+  }
+  
+  .button {
+    /* On aligne les boutons avec les champs texte. */
+    padding-left: 90px; /* La même taille que les libellés */
+  }
+  
+  button {
+    /* Une marge supplémentaire représentant approximativement
+       le même espace qu'entre les libellés et les champs. */
+    margin-left: 0.5em;
+  }

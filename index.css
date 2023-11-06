@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+
+
+.recherche {
+    background-color: rosybrown;
+    height: 30px;
+    padding: 0%;
+    margin: -8px;
+}
+.recherche ul {
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rosybrown;
+    height: 50px;
+    padding: 0%;
+    margin: -8px;
+}
+
+.recherche {
+    a { text-decoration: none; }
+}
+
+.BloomPetals h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    margin-top: 55px;
+}
+
+.BloomPetals p {
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.images img {
+    width: 20%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    
+    
+}
+ .service1, .service2, .service3 {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+ }
+
+
+.photos img {
+    max-width: 15%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: rosybrown;
+    height: 30px;
+    padding: 0%;
+    margin: -8px;
+}
+
+footer p {
+    color: rosybrown;
+}
+/* --Media Queries-- */
+
+/* @media screen and (min-width:390px){
+    /* html{width: 100%;}
+    body,header,footer,main,nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    } */
+} */
